@@ -1,13 +1,239 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  width: 1353px;
+  height: 86px;
+  margin-top:1px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  width: 1478px;
+  height: 16px;
+  gap:40px;
+  margin-left: 90px;
+
+
+}
+
+.link{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color:#211E1E;
+  text-decoration: none;
+  font-size:13px;
+  font-weight: 700;
+  line-height: 15.51px;
+  letter-spacing: 0.93px;
+  position: relative;
+  top:35px;
+  left:237px;
+  
+}
+
+
+.logo{
+width: 152px;
+height: 84px;
+position: relative;
+top:35px;
+
+}
+
+.icon{
+width: 15px;
+height: 15px;
+position: relative;
+top: 35px;
+left: 300px;
+border: 1px;
+opacity: 0.70px;
+
+}
+
+.login{
+width: 36px;
+height: 16px;
+position: relative;
+top: 35px;
+left: 300px;
+font-weight: 600;
+font-size: 13px;
+line-height: 15.51px;
+letter-spacing: 0.17px;
+color: #211E1E;
+
+}
+
+.signup{
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+font-size: 12px;
+font-weight: 600;
+line-height: 14px;
+letter-spacing: 0.15px;
+text-align: center;
+position: relative;
+top:35px;
+left:300px;
+color: #fff;
+
+}
+button{
+  width: 78px;
+  height: 40px;
+  border-radius: 10px;
+  background: #211E1E4D;
+
+}
+.line{
+  width: 1px;
+height: 30px;
+border: 1px;
+opacity: 0.5580589771270752px;
+background: #D8D8D8;
+border: 1px solid #D8D8D8;
+position: relative;
+top:35px;
+left:280px;
+}
+
+.cart{
+width: 48px;
+height: 40px;
+position: relative;
+top:35px;
+left:260px;
+background: #227840;
+
+
+}
+
+
+.footer-container{
+width: 1353px;
+height: 378px;
+margin-left: 80px;
+margin-top: 150px;
+padding: 0px 0px 0px 1px;
+display: flex; 
+justify-content: space-between;
+}
+
+
+.box1{
+width: 119px;
+height: 160px;
+line-height: 30px;
+margin-left: 30px;
+
+}
+.heading{
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0.55px;
+text-align: left;
+line-height: 45px;
+}
+
+a {
+ color: #211E1E;
+}
+
+.box2{
+width: 234px;
+height: 130px;
+line-height: 30px;
+}
+
+.box3{
+width: 390px;
+height: 125px;
+margin-top:0px;
+
+}
+.form{
+width: 390px;
+height: 50px;
+
+}
+.input{
+width: 290px;
+height: 50px;
+background-color: #F0F1F1;
+border-radius: 6px;
+background-image: url("./email.svg");
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+
+
+h1{
+font-size: 24px;
+font-weight: 700;
+text-align: left;
+line-height: 25px;
+
+}
+p{
+font-size: 14px;
+font-weight: 400;
+line-height: 50px;
+text-align: left;
+
+}
+
+.btn{
+background-color: #227840;
+color: #fff;
+width: 100px;
+height: 50px;
+
+
+}
+.box4{
+width: 1570px;
+height: 84px;
+position: relative;
+left: 0px;
+background: #F0F1F1;
+display:flex;
+justify-content: space-between;
+}
+.foot{
+  margin-top: 33px;
+  margin-left: 90px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.55px;
+  text-align: left;
+  
+}
+.icons{
+  width: 192px;
+  height: 18px;
+  margin-top: 33px;
+  position: relative;
+  right: 135px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0.55px;
+  
+  
+   
+}
+
+
+ 

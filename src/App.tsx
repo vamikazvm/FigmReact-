@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import 'reset-css'
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Home } from './components/pages/Home';
+import { About } from './components/pages/About';
+import { Menu } from './components/pages/Menu';
+import { Deals } from './components/pages/Deals';
+import { Brands } from './components/pages/Brands';
+import { Rewards } from './components/pages/Rewards';
+import { NavBar } from './NavBar';
+import { Footer } from './Footer';
 
-function App() {
+
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <NavBar />
+        <Switch>
+          <Route path="/">
+            <Home/>
+          </Route>
+          <Route path="/about">
+            <About/>
+          </Route>
+          <Route path="/menu">
+            <Menu />
+          </Route>
+          <Route path="/rewards">
+            <Rewards/>
+          </Route>
+          <Route path="/deals">
+            <Deals/>
+          </Route>
+          <Route path="/brands">
+            <Brands/>
+          </Route>
+        
+        </Switch>
+        <Footer/>
+      </BrowserRouter>
+    </>
   );
 }
 
 export default App;
+
