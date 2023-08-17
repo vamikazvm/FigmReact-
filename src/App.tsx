@@ -8,6 +8,7 @@ import { Brands } from './components/pages/Brands';
 import { Rewards } from './components/pages/Rewards';
 import { NavBar } from './NavBar';
 import { Footer } from './Footer';
+import  Slide  from "./Slide";
 
 
 export function App() {
@@ -15,6 +16,8 @@ export function App() {
     <>
       <BrowserRouter>
         <NavBar />
+        <Slide/>
+
         <Switch>
           <Route path="/">
             <Home/>
@@ -34,8 +37,11 @@ export function App() {
           <Route path="/brands">
             <Brands/>
           </Route>
+         
         
+         
         </Switch>
+       
         <Footer/>
       </BrowserRouter>
     </>
